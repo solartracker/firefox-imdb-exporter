@@ -1,7 +1,9 @@
+// about:debugging#/runtime/this-firefox
+
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "IMDb - MiniDLNA Exporter",
-  "version": "2.0",
+  "version": "3.0",
   "description": "Creates MiniDLNA-compatible NFO and folder.jpg from IMDb pages.",
   "permissions": [
     "activeTab",
