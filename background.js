@@ -88,7 +88,7 @@ browser.browserAction.onClicked.addListener(async (tab) => {
 
   // Subdirectory in Downloads
   const year = movie.datePublished ? movie.datePublished.slice(0, 4) : null;
-  const folderName = `_IMDB/${imdbId}-${safeTitle}-${year}`;
+  const folderName = `_IMDB/${year}-${safeTitle}-${imdbId}`;
 
   // Build NFO content
   const nfoContent = `<?xml version="1.0" encoding="utf-8"?>
@@ -118,4 +118,3 @@ browser.browserAction.onClicked.addListener(async (tab) => {
 
   console.log(`Download triggered for IMDb ID: ${imdbId}`);
 });
-

@@ -3,7 +3,7 @@
 {
   "manifest_version": 2,
   "name": "IMDb - MiniDLNA Exporter",
-  "version": "3.0",
+  "version": "3.1",
   "description": "Creates MiniDLNA-compatible NFO and folder.jpg from IMDb pages.",
   "permissions": [
     "activeTab",
@@ -16,4 +16,3 @@
     "default_title": "Export IMDb to MiniDLNA"
   }
 }
-
